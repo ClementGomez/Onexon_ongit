@@ -1,0 +1,24 @@
+.avis {
+    &__heading-2 {
+        grid-column: 1 / -1;
+        align-self: center;
+    }
+    &__card {
+        background-color: $color-grey-light-1;
+        border-radius: 5px;
+        box-shadow: 0 .5rem .8rem rgba(#000, .6);
+        padding: 1.5rem;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    &__icon {
+        width: 20%;
+        height: 10%;
+        fill: $color-primary;
+        text-align: center;
+    }
+}

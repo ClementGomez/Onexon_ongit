@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 85%;
+    
+    @include respond(tab-land) {
+        font-size: 82;
+    }
+    @include respond(tab-port) {
+        font-size: 80%;
+    }
+    @include respond(big-desktop) {
+        font-size: 95%;
+    }
+}
+body{box-sizing: border-box;}
+
+
+html ~ body {
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}

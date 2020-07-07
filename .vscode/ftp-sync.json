@@ -1,0 +1,35 @@
+{
+    "remotePath": "/public_html",
+    "host": "onexon.fr",
+    "username": "xy52gmm2w6ey",
+    "password": "79E,HZI9QYzo:",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "node_modules",
+        "sass",
+        "package.json",
+        "package-lock.json",
+        "webpack.config.js",
+        "readme.md",
+        "app.js",
+        "app.scss",
+        "models",
+        "views"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}

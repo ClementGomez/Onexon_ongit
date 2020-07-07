@@ -1,0 +1,24 @@
+// Import your theme variables
+// Define theme variables before importing any MDC Web component styles
+$mdc-theme-primary: #FF7043;
+
+// Import the styles for each MDC Web component
+@use "@material/typography/mdc-typography";
+@use "@material/button/mdc-button";
+@use "@material/textfield/mdc-text-field";
+@use "@material/floating-label/mdc-floating-label";
+@use "@material/line-ripple/mdc-line-ripple";
+@use "@material/theme";
+
+
+// Check out the MDC Web documentation for how to use MDC Sass mixins:
+// https://github.com/material-components/material-components-web
+// .foo-button {
+    //   @include mdc-button-ink-color(lightblue);
+    //   @include mdc-states(lightblue);
+    // }
+    
+    // Import your components for your application
+    
+    //import local sass files
+    @use "sass/main";

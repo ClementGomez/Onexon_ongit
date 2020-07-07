@@ -1,0 +1,29 @@
+.devis{
+    &__Q{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+    }
+    &__btn{
+        display: flex;
+        
+        &--A,
+        &--B,
+        &--C,
+        &--D,
+        &--E{
+            margin: 2rem;
+            text-decoration: none;
+        }
+        &--back{
+            align-self: flex-start;
+        }
+    }
+    &__question{
+        font-weight: 400;
+        font-size: 2.5rem;
+    }    
+}

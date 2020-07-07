@@ -1,0 +1,80 @@
+body {
+    color: $color-grey-dark;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+}
+.heading-1 {
+    text-transform: uppercase;    
+}
+.heading-2 {
+    text-transform: uppercase;
+}
+.heading-3 {
+
+}
+.heading-4 {
+    color: $color-primary;
+}
+p {
+
+}
+q {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.btn {
+    &:hover,
+    &:active {
+        background-color: $color-primary;
+    }
+
+    &__outlined {
+        &:link,
+        &:visited {
+        border:0.1rem solid $color-primary;
+        border-radius: 5px;
+        color: $color-primary;
+        margin: 2rem;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all .2s;        
+        }
+        &:hover,
+        &:active {
+        border:0.1rem solid $color-primary;            
+        color: #fff;
+        background-color: $color-primary;           
+        }
+    }
+    &__contained {
+        &:link,
+        &:visited {
+        background-color: $color-primary;
+        border-radius: 5px;
+        color: #fff;
+        margin: 2rem;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all .2s;
+        }
+        &:hover,
+        &:active {
+        background-color: $color-primary-dark;
+        box-shadow: 0 0 1rem rgba(#000, .6); 
+        }
+        
+    }
+    &__text {
+        text-decoration: none;
+        color: $color-grey-dark;
+        &:hover,
+        &:active {
+        border-bottom: 0.1rem solid $color-primary;
+        transition: all .3s;
+        }
+    }
+}
